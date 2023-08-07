@@ -1,0 +1,59 @@
+Step 1:
+Used mkdir command to make new directory 
+mkdir "Moamen Sherif"
+
+Then used cd command to change the directory
+cd Moamen\ Sherif
+
+Step 2:
+Used mkdir command to make new directory 
+mkdir "Documents"
+
+Then used cd command to change the directory
+cd Documents
+
+the used touch command to make the text files
+touch file1.txt file2.txt file3.txt
+
+Stemp 3:
+Used cd .. to return to the parent directory
+
+the used touch to make new file with a . at the first of the name to make it hidden
+toch .hidden_file
+
+Used ls -a to view all contents of this folder
+
+
+Step 4:
+used nano Documents/file1.txt to open the nano editor on the file we want
+
+then write what we want on the file and then press ctrl+x to close the editor then y to save changes.
+
+then used cat command to show to contents of the file
+
+Step 5:
+used cd - to return to the previous directory
+
+Step 6:
+Used mkdir - to make the new directory
+then used cd ./- to navigate to this directory as we cant just say cd - because this is already a command that return us to the previes directory
+
+
+Step 7:
+cd ../.. to return to the main directory
+cp -r Documents/ ./My_Documents to copy the directory into the same parent directory but with another name and -r to get all its content
+then ls to see that the folder in created with this name 
+then ls ./My_Document to check that we have all the files copied with the folder
+
+Step 8:
+cat .hidden_file to see the contents of this file but it is already empty so nothing appeared
+
+Step 9:
+used mv command to move the files from directory to another 
+mv ./Documents/file1.txt ./Document/file2.txt .
+this will take file1.txt and file2.txt and move then to the current directory
+
+Step 10:
+cd .. to go to the parent directory
+rm -r Moamen\ Sherif to remove the folder with all its content
+ls to check that the folder is removed 
